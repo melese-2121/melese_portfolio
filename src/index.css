@@ -15,4 +15,7 @@
   .talk-btn:hover {
     @apply bg-smallTextBlur  duration-500;
   }
+  .active-link {
+    @apply border-b-2 border-primary text-primary;
+  }
 }

@@ -1,8 +1,8 @@
 import { logo } from "../../assets";
 
-const Header = () => {
+const Header = ({ activeSection }) => {
   return (
-    <header className="w-full h-[80px] leading-[80px] flex items-center ">
+    <header className="w-full bg-white opacity-[96%] z-40 lg:pr-[20%]  h-[70px] leading-[80px] flex items-center fixed">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* LOGO */}
@@ -20,22 +20,42 @@ const Header = () => {
           <div className="menu">
             <ul className="flex items-center gap-10">
               <li>
-                <a className="nav-a" href="#about">
+                <a
+                  className={`nav-a ${
+                    activeSection === "about" ? "active-link" : ""
+                  }`}
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="nav-a" href="#services">
+                <a
+                  className={`nav-a ${
+                    activeSection === "services" ? "active-link" : ""
+                  }`}
+                  href="#services"
+                >
                   Services
                 </a>
               </li>
               <li>
-                <a className="nav-a" href="#portfolio">
+                <a
+                  className={`nav-a ${
+                    activeSection === "portfolio" ? "active-link" : ""
+                  }`}
+                  href="#portfolio"
+                >
                   Portfolio
                 </a>
               </li>
               <li>
-                <a className="nav-a" href="#contact">
+                <a
+                  className={`nav-a ${
+                    activeSection === "contact" ? "active-link" : ""
+                  }`}
+                  href="#contact"
+                >
                   Contact
                 </a>
               </li>
