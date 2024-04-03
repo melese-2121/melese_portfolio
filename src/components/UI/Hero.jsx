@@ -38,7 +38,7 @@ const Hero = () => {
               className="flex items-center gap-6 mt-10"
             >
               <a
-                href="#portfolio"
+                href="#work"
                 className="text-primary hover:text-smallTextBlur font-[600] text-[16px]  border-b border-smallText border-solid  hover:tex duration-500"
               >
                 See portfolio

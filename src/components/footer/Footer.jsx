@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-300 text-gray-700 py-12 max-md:-mx-10 md:px-20 -mb-24">
+    <footer className="bg-[#7f68f4] text-[#fff] py-12 max-md:-mx-12  md:px-20 -mb-24 -mt-5">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="text-center md:text-left mb-6 md:mb-0">
           <h2 className="text-2xl font-bold">Melese Ayen</h2>
@@ -13,22 +13,22 @@ const Footer = () => {
         <div className="flex items-center justify-center md:justify-end">
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="#" className="hover:text-smallTextBlur ">
                 Home
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:text-white">
+              <a href="#projects" className="hover:text-smallTextBlur">
                 Portfolio
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-white">
+              <a href="#about" className="hover:text-smallTextBlur">
                 About
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-white">
+              <a href="#contact" className="hover:text-smallTextBlur">
                 Contact
               </a>
             </li>

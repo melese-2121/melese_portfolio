@@ -66,7 +66,7 @@ const Header = ({ activeSection }) => {
               <li>
                 <a
                   className={`nav-a ${
-                    activeSection === "portfolio" ? "active-link" : ""
+                    activeSection === "work" ? "active-link" : ""
                   }`}
                   href="#work"
                 >
