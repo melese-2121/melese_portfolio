@@ -225,7 +225,7 @@ const projects = [
   {
     name: "Visual Story Share (VSS)",
     description:
-      "Visual Story Share is a full stack dynamic online platform designed to facilitate creative expression. Visual Story Share offers users an intuitive interface to seamlessly create, share, discover, and interact with a diverse range of visual narratives.",
+      "Visual Story Share is a full stack dynamic online platform designed to facilitate creative expression. ",
     tags: [
       {
         name: "react",
@@ -241,10 +241,6 @@ const projects = [
       },
       {
         name: "react-query",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "authentication and authorization",
         color: "pink-text-gradient",
       },
     ],

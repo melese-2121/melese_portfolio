@@ -19,8 +19,8 @@ const Services = () => {
         <div className="flex flex-col justify-center sm:py-12">
           <div className="w-full py-3 px-2 sm:max-2-xl sm:mx-auto sm:px-0">
             <div className="relative text-gray-700 antialiased text-sm font-semibold">
-              <i className="fas fa-tree text-green-300 text-3xl text-center ml-[2px] -mb-[2px] w-full "></i>
-              <div className="hidden absolute w-1 sm:block bg-green-300 h-full left-1/2 transform-translate-x-1/2"></div>
+              <i className="fas fa-tree text-green-300 text-3xl text-center ml-[2px] -mb-[2px] hidden md:block w-full "></i>
+              <div className="hidden absolute w-1 sm:block bg-primary h-full left-1/2 transform-translate-x-1/2"></div>
               {/* LEFT CARD */}
               <div className="mt-6 sm:mt-0 sm:mb-12">
                 <div className="flex items-center flex-col sm:flex-row">

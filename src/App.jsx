@@ -6,6 +6,8 @@ import "./App.css";
 import Hero from "./components/UI/Hero";
 import Services from "./components/UI/Services";
 import Works from "./components/UI/Works";
+import Contact from "./components/UI/Contact";
+import Techs from "./components/UI/Techs";
 
 function App() {
   const [activeSection, setActiveSection] = useState(null);
@@ -41,9 +43,13 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Techs />
         <Works />
+        <Contact />
       </main>
-      <Footer />
+      <div className="md:-mx-[12%] md:-mb-28">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -28,26 +28,26 @@ const ProjectCard = ({
   };
   return (
     <motion.div
-      id="Work"
+      id="work"
       variants={fadeIn("", "spring", index * 0.5, 0.5)}
-      className="mx-auto  flex-wrap  rounded-sm"
+      className="mx-auto  flex-wrap  rounded-sm max-sm:px-[10%] "
     >
       <Tilt
         options={defaultOptions}
-        className="bg-black-200  flex-wrap rounded-xl  sm:w-[350px]  border-2 bg-[#291342] p-1  "
+        className="bg-black-200  flex-wrap rounded-xl  sm:w-[300px]  border-2 border-zinc-50 bg-heading p-1  "
       >
         <div className="relative w-full ">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-md"
+            className="w-full h-full  object-cover rounded-md"
           />
         </div>
 
-        <div className="mt-5 h-[200px]  px-1">
+        <div className="mt-5  min-h:h-[20px]  px-1">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-smallTextBlur text-[14px]">{description}</p>
-          <div className="mt-4 text-smallTextBlur flex flex-wrap gap-6 px-1">
+          <div className="mt-2 text-primary flex flex-wrap gap-x-5 gap-y-2 px-1">
             {tags.map((tag) => (
               <p
                 key={`${name}-${tag.name}`}
@@ -68,7 +68,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="source code"
-                className="w-9 h-9 hover:w-10 hover:h-10 duration-500 rounded-full object-contain text-white"
+                className="w-9 h-9 hover:w-10 hover:h-10 duration-500 rounded-full object-contain bg-black"
               />
             </div>
             <div className="tooltip hidden group-hover:block absolute bg-gray-800 text-white  px-2 py-1 rounded whitespace-nowrap -ml-10 -mt-8">
@@ -101,7 +101,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className="text-heading  text-center font-[800] text-[2.4rem] -mb-10 mt-10">
+        <h2 className="text-heading  text-center font-[800] text-[2.4rem] -mb-10 mt-28">
           Projects
         </h2>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -114,15 +114,21 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories. It reflects my ability to solve complex
-          problems, work with different technologies, and manage projects
-          effectively.
+          links to <span className="text-green-600">code</span> repositories and
+          <span className="text-green-600"> Live </span> show. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage projects effectively.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap justify-center gap-7">
+      <div className="mt-10 flex flex-wrap justify-center gap-10 md:gap-14  mx-auto">
         {projects.map((project, index) => (
-          <div key={`project-${index}`} className="w-full sm:w-1/2 lg:w-1/3">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            key={`project-${index}`}
+            className="w  sm:w-1/2 lg:w-1/3"
+          >
             <ProjectCard {...project} />
           </div>
         ))}

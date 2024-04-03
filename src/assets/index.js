@@ -41,9 +41,34 @@ import somma from "./somma.png";
 
 import herobg from "./herobg.jpg";
 
+import bootstrap2 from "./images/bootstrap.jpg";
+import css2 from "./images/css.png";
+import express from "./images/express.png";
+import html2 from "./images/html.png";
+import javascript2 from "./images/javascript.png";
+import tailwind2 from "./images/tailwind.png";
+import mongodb2 from "./images/mongodb.png";
+import mysql from "./images/mysql.png";
+import node from "./images/node.webp";
+import reactbootstrap from "./images/react-bootstrap.png";
+import react from "./images/react.png";
+import sequelize from "./images/sequelize.png";
+
 export {
   creator,
+  bootstrap2,
+  express,
+  sequelize,
+  react,
+  css2,
+  reactbootstrap,
   mobile,
+  tailwind2,
+  node,
+  mysql,
+  mongodb2,
+  javascript2,
+  html2,
   web,
   github,
   menu,

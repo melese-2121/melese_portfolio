@@ -10,7 +10,7 @@ const Hero = () => {
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
-              className="text-headingColor font-[600] text-[16px]"
+              className="text-headingColor font-[600] text-[16px] max-md:mt-12"
             >
               Hello Welcome
             </h5>
@@ -45,8 +45,15 @@ const Hero = () => {
               </a>
 
               <div class="flex sm:ml-[10%] gap-5">
-                <i class="fab fa-github text-xl cursor-pointer text-primary mr-4 hover:text-smallTextBlur duration-500"></i>
-                <i class="fab fa-linkedin text-xl cursor-pointer text-primary hover:text-smallTextBlur duration-500"></i>
+                <a target="_blank" href="https://github.com/melese-2121">
+                  <i class="fab fa-github text-xl cursor-pointer text-primary mr-4 hover:text-smallTextBlur duration-500"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/melese-ayen/"
+                >
+                  <i class="fab fa-linkedin text-xl cursor-pointer text-primary hover:text-smallTextBlur duration-500"></i>
+                </a>
               </div>
             </div>
           </div>
