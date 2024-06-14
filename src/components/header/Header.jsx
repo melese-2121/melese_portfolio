@@ -66,11 +66,21 @@ const Header = ({ activeSection }) => {
               <li>
                 <a
                   className={`nav-a ${
+                    activeSection === "experience" ? "active-link" : ""
+                  }`}
+                  href="#experience"
+                >
+                  Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`nav-a ${
                     activeSection === "work" ? "active-link" : ""
                   }`}
                   href="#work"
                 >
-                  Portfolio
+                  Projects
                 </a>
               </li>
               <li>
@@ -99,7 +109,7 @@ const Header = ({ activeSection }) => {
               onClick={toggleMenu}
               className="text-2xl text-smallText md:hidden cursor-pointer hover:text-smallTextBlur duration-500"
             >
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </span>
           </div>
         </div>

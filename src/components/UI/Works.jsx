@@ -28,9 +28,8 @@ const ProjectCard = ({
   };
   return (
     <motion.div
-      id="work"
       variants={fadeIn("", "spring", index * 0.5, 0.5)}
-      className="mx-auto  flex-wrap  rounded-sm max-sm:px-[10%] "
+      className="mx-auto  flex-wrap top-0  rounded-sm max-sm:px-[10%] "
     >
       <Tilt
         options={defaultOptions}
@@ -99,7 +98,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <section id="work">
       <motion.div variants={textVariant()}>
         <h2 className="text-heading  text-center font-[800] text-[2.4rem] -mb-10 mt-28">
           Projects
@@ -121,19 +120,19 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-10 flex flex-wrap justify-center gap-10 md:gap-14  mx-auto">
+      <div className="mt-10 grid max-sm:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-10 md:gap-12  mx-auto">
         {projects.map((project, index) => (
           <div
             data-aos="fade-right"
             data-aos-duration="1200"
             key={`project-${index}`}
-            className="w  sm:w-1/2 lg:w-1/3"
+            className="w  sm:w-1/2 lg:w-1/3 top-0"
           >
             <ProjectCard {...project} />
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 

@@ -8,6 +8,7 @@ import Services from "./components/UI/Services";
 import Works from "./components/UI/Works";
 import Contact from "./components/UI/Contact";
 import Techs from "./components/UI/Techs";
+import Experience from "./components/UI/Experience";
 
 function App() {
   const [activeSection, setActiveSection] = useState(null);
@@ -44,6 +45,7 @@ function App() {
         <Hero />
         <Services />
         <Techs />
+        <Experience />
         <Works />
         <Contact />
       </main>

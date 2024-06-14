@@ -9,11 +9,17 @@ const Services = () => {
             My Services
           </h2>
           <p className="lg:max-w-[540px] lg:mx-auto text-heading font-[500] text-[16px] leading-7">
-            I offer custom website design tailored to reflect your brand
-            identity, responsive development, seamless e-commerce solutions,
-            robust CMS, performance optimization techniques, and strategic SEO
-            implementation. Let's collaborate---reach out today to discuss your
-            project needs!
+            I offer custom website design and website development. With
+            expertise in <span className="text-primary">responsive design</span>
+            , seamless{" "}
+            <span className="text-primary">e-commerce integration</span>,
+            advanced <span className="text-primary"> CMS solutions </span>,
+            <span className="text-primary">
+              performance optimization strategies
+            </span>
+            , and effective <span className="text-primary">SEO techniques</span>
+            , I ensure your website not only looks stunning but also performs
+            exceptionally well.
           </p>
         </div>
         <div className="flex flex-col justify-center sm:py-12">
