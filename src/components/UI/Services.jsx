@@ -99,19 +99,24 @@ const Services = () => {
                           Backend Development
                         </h3>
                         <p className="text-smallText text-[15px] group-hover:text-white group-hover:font-[500]">
-                          Strong grasp of Node.js, Express.js, MongoDB, and
-                          MySQL, I craft resilient and scalable backend
-                          solutions tailored to your needs. From crafting APIs
-                          to managing data, I blend creativity with technical
-                          prowess to deliver top-notch web applications.
+                          Strong knowledge of Node.js, Express.js, MongoDB, and
+                          MySQL, with extensive experience in backend
+                          development. Proficient in building and maintaining
+                          robust server-side applications, designing efficient
+                          database schemas, and implementing RESTful APIs. Adept
+                          at optimizing performance, ensuring security, and
+                          managing server deployments. Skilled in integrating
+                          third-party services and handling asynchronous
+                          operations to deliver scalable and reliable web
+                          applications.
                         </p>
-                        <div class="flex w-full justify-start mt-3">
-                          <i class="fab fa-node-js text-xl mr-4"></i>
-                          <i class="fas fa-server text-lg mr-4"></i>
-                          <i class="fas fa-database text-lg mr-4"></i>
+                        <div className="flex w-full justify-start mt-3">
+                          <i className="fab fa-node-js text-xl mr-4"></i>
+                          <i className="fas fa-server text-lg mr-4"></i>
+                          <i className="fas fa-database text-lg mr-4"></i>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
+                            className="h-6 w-6"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"

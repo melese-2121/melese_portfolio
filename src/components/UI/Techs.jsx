@@ -33,7 +33,7 @@ const Techs = () => {
   ];
   return (
     <section className="">
-      <h2 className="text-heading  text-center font-[800] text-[2.4rem] mb-16 mt-10">
+      <h2 className="text-heading -mt-10 text-center font-[800] text-[2.4rem] mb-16">
         Technologies
       </h2>
       <div className="  text-center  mx-auto sm:px-6 lg:px-8 ">

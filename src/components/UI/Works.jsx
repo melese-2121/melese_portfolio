@@ -5,6 +5,7 @@ import { styles } from "../../styles";
 import { github, live } from "../../assets";
 import { projects } from "../../constants";
 import { fadeIn, textVariant } from "../../utils/motion";
+import ProjectSection from "./ProjectSection";
 
 const ProjectCard = ({
   index,
@@ -114,11 +115,11 @@ const Works = () => {
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to <span className="text-green-600">code</span> repositories and
-          <span className="text-green-600"> Live </span> show. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          <span className="text-green-600"> Live </span> show.
         </motion.p>
       </div>
+
+      <ProjectSection />
 
       <div className="mt-10 grid max-sm:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-10 md:gap-12  mx-auto">
         {projects.map((project, index) => (

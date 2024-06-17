@@ -1,0 +1,72 @@
+/* src/components/ProjectSection.css */
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  overflow: hidden;
+  background: linear-gradient(
+    270deg,
+    #ff9a9e,
+    #fad0c4,
+    #d390f1,
+    #b9aafc,
+    #ff9a9e,
+    #fa77d5,
+    #ffffff
+  );
+  background-size: 200% 200%;
+  animation: gradientBackground 6s ease infinite;
+}
+
+.concepts-learned {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.concepts-learned h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.concepts-learned ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.concepts-learned li {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #555;
+}
+
+.project-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

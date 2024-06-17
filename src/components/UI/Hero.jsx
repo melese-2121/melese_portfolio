@@ -29,9 +29,12 @@ const Hero = () => {
               className="flex gap-2 text-heading mt-12 font-[500] text-[15px] leading-7  sm:pr-10"
             >
               <span>
-                ✔️ I specialize in designing and developing custom websites that
-                enhance user experience and drive results. Ready to transform
-                your online presence.
+                <span className="rounded-full border border-green-400">✔️</span>{" "}
+                Detailed-oriented Front End(98%) and Back End(78%) Developer
+                with more than 3 years experience working with HTML, CSS,
+                Javascript, JQuery, React, TypeScript, Node.js, Express.js,
+                MYSQL, mongoDB and Figma. Ready to transform your online
+                presence.
               </span>
             </p>
             <div
@@ -43,18 +46,22 @@ const Hero = () => {
                 href="#work"
                 className="text-primary hover:text-smallTextBlur font-[600] text-[16px]  border-b border-smallText border-solid  hover:tex duration-500"
               >
-                See portfolio
+                View portfolio
               </a>
 
-              <div className="flex sm:ml-[10%] gap-5">
+              <div className="flex sm:ml-[10%] gap-10 text-sm text-primary  justify-center items-center">
                 <a target="_blank" href="https://github.com/melese-2121">
-                  <i className="fab fa-github text-xl cursor-pointer text-primary mr-4 hover:text-smallTextBlur duration-500"></i>
+                  <i className="fab fa-github text-xl cursor-pointer text-primary mr-2  hover:text-smallTextBlur duration-500"></i>
+                  Github
                 </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/melese-ayen/"
                 >
-                  <i className="fab fa-linkedin text-xl cursor-pointer text-primary hover:text-smallTextBlur duration-500"></i>
+                  <i className="fab fa-linkedin text-xl mr-2 cursor-pointer text-primary hover:text-smallTextBlur duration-500">
+                    {" "}
+                  </i>
+                  LinkedIn
                 </a>
               </div>
             </div>

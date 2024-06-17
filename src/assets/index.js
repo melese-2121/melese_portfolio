@@ -15,6 +15,15 @@ import menge from "./menge.png";
 import unitybook from "./unity-book.png";
 import hoski from "./hoski.png";
 
+import Dowell1 from "./Dowell/Dowell1.jpeg";
+import Dowell2 from "./Dowell/Dowell2.jpeg";
+import Dowell3 from "./Dowell/Dowell3.jpeg";
+import Dowell4 from "./Dowell/Dowell4.jpeg";
+import Dowell5 from "./Dowell/Dowell5.jpeg";
+import Dowell6 from "./Dowell/Dowell6.jpeg";
+
+import vsshome from "./Apps/vss.jpeg";
+
 import css from "./tech/css.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -104,4 +113,11 @@ export {
   menge,
   unitybook,
   hoski,
+  Dowell1,
+  Dowell2,
+  Dowell3,
+  Dowell4,
+  Dowell5,
+  Dowell6,
+  vsshome,
 };
