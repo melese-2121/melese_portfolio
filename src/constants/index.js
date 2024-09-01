@@ -21,7 +21,6 @@ import {
   somma,
   menge,
   unitybook,
-  hoski,
 } from "../assets";
 
 export const navLinks = [
@@ -267,23 +266,6 @@ const projects = [
     ],
     image: jobRecSystem,
     source_code_link: "https://github.com/melese-2121/Job-recruitement-system",
-  },
-  {
-    name: "Hoski Media Home Page",
-    description:
-      "This is single page app for hoski media company test purpose.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: hoski,
-    source_code_link: "https://github.com/melese-2121/hoski_home",
   },
 ];
 
